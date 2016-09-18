@@ -1,0 +1,82 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>久久香文帅点菜系统</title>
+<style type="text/css">
+<!--
+.div1{position:absolute;left:1px;top:1px;}
+.div2{position:absolute;left:150px;top:1px;height:70px;}
+.img1{background-image:url(ground.jpg);background-repeat:repeatx;
+height:50px;alt:标题选择;font-family:宋体,隶体,黑体;font-size:20pt;color:fuchsia; font-weight:bold}
+
+.div3{position:absolute;left:1100px;top:1px;}
+.div4{position:absolute;top:81px; z-index:1;}
+.div5{position:absolute;left:900px;top:201px;  z-index:2 }
+.div6{position:absolute;left:900px;top:301px; z-index:3}
+
+.fontstyle2{color:#FF7500; font-size:13px;font-weight:bold;font-family:宋体;}
+.fontstyle3{font-size:5px;}
+.fontstyle4{font-family:宋体;font-size:11px;font-weight:bold;}
+.fontstyle5{font-family:宋体;font-size:25px;font-weight:bold;color:#FF7500;}
+.fontstyle6{font-family:宋体;font-size:12px;font-weight:bold;}
+.fontstyle7{font-family:隶书,黑体;font-size:14pt;}
+.fontstyle8{color:#FFFFFF;font-family:隶书,黑体;font-size:20px;font-weight:bold;}
+.fontstyle1{font-family:隶体,黑体;font-size:15pt;color:green;font-weight:bold}
+.fontstyle9{font-family:宋体;font-size:15px;color:blue;font-weight:bold}
+
+ul li{
+	list-style: none;
+}
+ul :last-child
+{
+	float: right;
+}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none; color: block}
+a:hover{text-decoration:underline; font-size:50px;color:blue }
+a:active{text-decoration:none;}
+-->
+</style>
+</head>
+
+
+<body>
+<div id="Layer1" class="div2" >
+<img src="xiaotubiao2.jpg"  style="height:70px" alt="小图标">
+</div>
+<div class="div3">
+<br>
+<p class="fontstyle9"><a href="change.html">登陆页面，改进建议</a></p>
+</div>
+<div class="div4">
+<img src="jingse1.jpg" alt="背景图片"  >
+<div class="div5">
+
+<form  method="post"  >
+<ul>
+	
+<li class="fontstyle1">用户名:<input type="text" name="id" maxlength="32" value="" placeholder="手机号/会员名/邮箱" 
+	 tabindex="1" style="height:30px; weight:100px; "  /></li>
+<br/>
+<li class="fontstyle1">密码:&nbsp;&nbsp;<input type="password" name="pwd" maxlength="32" style="height:30px; 
+weight:100px; " /></li>
+
+
+<li class="fontstyle7"><a href="forgetpwd.jsp" >忘记密码？</a></li>
+
+<li><input type="submit" class="fontstyle8" name="submit1" value="登   录"  
+	style="color:fuchsia;padding:0 80px;" onclick="this.form.action = 'login_1.jsp';
+                    this.form.submit()"/></li>
+<li class="fontstyle9">注册</li>
+                    </ul>
+</form>
+
+</div>
+</div>
+</body>
+</html>
